@@ -1,4 +1,4 @@
-package org.startupevo.metapostanalysis.config;
+package org.test.metapostanalysis.config;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,10 +1,10 @@
-package org.startupevo.metapostanalysis.service;
+package org.test.metapostanalysis.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import org.startupevo.metapostanalysis.dto.AnalyticsReportDto;
-import org.startupevo.metapostanalysis.dto.PostData;
+import org.test.metapostanalysis.dto.AnalyticsReportDto;
+import org.test.metapostanalysis.dto.PostData;
 
 import java.time.DayOfWeek;
 import java.time.OffsetDateTime;

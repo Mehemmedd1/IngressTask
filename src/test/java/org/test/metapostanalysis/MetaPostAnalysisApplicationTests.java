@@ -1,4 +1,4 @@
-package org.startupevo.metapostanalysis;
+package org.test.metapostanalysis;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

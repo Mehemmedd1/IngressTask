@@ -1,12 +1,12 @@
-package org.startupevo.metapostanalysis.service;
+package org.test.metapostanalysis.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import org.startupevo.metapostanalysis.config.MetaApiConfig;
-import org.startupevo.metapostanalysis.dto.CommentsSummary;
-import org.startupevo.metapostanalysis.dto.LikesSummary;
-import org.startupevo.metapostanalysis.dto.PostData;
+import org.test.metapostanalysis.config.MetaApiConfig;
+import org.test.metapostanalysis.dto.CommentsSummary;
+import org.test.metapostanalysis.dto.LikesSummary;
+import org.test.metapostanalysis.dto.PostData;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.startupevo.metapostanalysis.dto;
+package org.test.metapostanalysis.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -8,14 +8,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Represents the {@code summary} block returned inside a comments connection.
+ * Represents the {@code summary} block returned inside a likes connection.
  * <p>
  * Example fragment:
  * <pre>
  * "summary": {
- *     "order": "ranked",
- *     "total_count": 7,
- *     "can_comment": true
+ *     "total_count": 42,
+ *     "can_like": true,
+ *     "has_liked": false
  * }
  * </pre>
  */
@@ -24,14 +24,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class CommentsSummary {
-
-    @JsonProperty("order")
-    private String order;
+public class LikesSummary {
 
     @JsonProperty("total_count")
     private long totalCount;
 
-    @JsonProperty("can_comment")
-    private boolean canComment;
+    @JsonProperty("can_like")
+    private boolean canLike;
+
+    @JsonProperty("has_liked")
+    private boolean hasLiked;
 }

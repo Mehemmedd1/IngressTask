@@ -1,4 +1,4 @@
-package org.startupevo.metapostanalysis;
+package org.test.metapostanalysis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

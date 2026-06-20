@@ -8,7 +8,7 @@
         <version>3.5.15</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.startupevo</groupId>
+    <groupId>org.test</groupId>
     <artifactId>meta-post-analysis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>meta-post-analysis</name>

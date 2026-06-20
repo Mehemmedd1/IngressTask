@@ -1,4 +1,4 @@
-package org.startupevo.metapostanalysis.dto;
+package org.test.metapostanalysis.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

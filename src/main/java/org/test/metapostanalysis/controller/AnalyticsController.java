@@ -1,12 +1,12 @@
-package org.startupevo.metapostanalysis.controller;
+package org.test.metapostanalysis.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.startupevo.metapostanalysis.dto.AnalyticsReportDto;
-import org.startupevo.metapostanalysis.service.PostAnalyticsService;
+import org.test.metapostanalysis.dto.AnalyticsReportDto;
+import org.test.metapostanalysis.service.PostAnalyticsService;
 
 import java.time.DayOfWeek;
 import java.util.LinkedHashMap;
