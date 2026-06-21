@@ -2,7 +2,6 @@
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.15-brightgreen)](https://spring.io/projects/spring-boot)
 [![Java](https://img.shields.io/badge/Java-17-orange)](https://www.oracle.com/java/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 > A **Spring Boot** web application that fetches the last 20 posts from the **Meta Graph API**, analyzes engagement metrics (likes, comments, engagement score), and presents the results through a **terminal report**, **REST API**, and **Bootstrap-styled HTML dashboard**.
 
@@ -335,8 +334,3 @@ All configuration is loaded from `.env` via `spring-dotenv`:
 | `meta.api.page-id` | `META_PAGE_ID` | `me` | Facebook Page ID |
 | `server.port` | — | `8080` | Application port |
 
----
-
-## License
-
-This project was developed as part of a **Backend / Data Intern** application task.
